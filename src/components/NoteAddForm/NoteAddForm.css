@@ -1,0 +1,26 @@
+form {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+form textarea {
+    min-height: 100px;
+    margin-top: 10px;
+    padding: 10px 50px 10px 10px;
+    box-sizing: border-box;
+}
+
+form button {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    z-index: 3;
+    width: 48px;
+    height: 48px;
+    border: none;
+    background-color: #fff;
+    background-image: url('https://img.icons8.com/fluent/48/000000/circled-play.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
